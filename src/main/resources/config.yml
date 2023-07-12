@@ -1,0 +1,69 @@
+GlobalArenaConfig:
+  MinItemInLootChests: 1
+  MaxItemInLootChests: 4
+  #When player's voting
+  FastStartCountdown: 10
+  FallDamageIngame: true
+  #  use '*' for disable all command
+  DisabledCommandsIngame:
+    - '/help'
+    - '/tpa'
+    - '/kit'
+    - '/warp'
+    - '/heal'
+    - '/feed'
+    - '/god'
+    - '/gamemode'
+    - '/tp'
+    - '/afk'
+  DisableJoinMessageInArena: false
+  DisableQuitMessageInArena: false
+
+#Almost u can translate or edit everything :)
+MessageConfiguration:
+  # %prefix%
+  PluginPrefix: "&7≪ &aSurvivalDomination &7≫"
+  #This is what u see when you joins to the arena!
+  JoinArenaMessage: "%prefix% &eYou joined the arena!"
+  #This is what u see when you quits from the arena!
+  QuitArenaMessage: "%prefix% &cYou left the arena!"
+  #This is what u see when someone joins to the arena!
+  JoinArenaOthersMessage: "%prefix% &6%player% &ehas joined the arena"
+  QuitArenaOthersMessage: "%prefix% &6%player% &chas left the arena"
+  ArenaCurrentlyNotPlayableOrRunning: "%prefix% &cThis arena is currently not playable or is currently running!"
+  EnoughPlayerJoined: "%prefix% &aEnough players have joined the arena, so it is now starting!"
+  ArenaCountdown: "%prefix% &7The arena will start in &c%countdown-seconds% &7seconds!"
+  ArenaStartedMessage: "%prefix% &eThe arena has been started! &cYou have &7%warmup-seconds% &cto warmup before the PVP enabled!"
+  WarmupEndMessage: "%prefix% &cThe warmup has ended! &4PVP &cnow enabled!"
+  WinnerMessage: "%prefix% &aCongratulations, you have won this arena!"
+  WinnerMessageOthers: "%prefix% &2The game has ended! The winner of the game was %winner%"
+  HelpMessage: "%prefix% &cFor more help please, use &7/sd help"
+  InsufficientPermission: "%prefix% &cYou don't have enough permission!"
+  BeforeCreateArenaSelectTheArea: "%prefix% &cBefore you create an arena, please select the area! &7/sd selector"
+  UsageMessageArenaName: "%prefix% &a/event create &c<arena> <min-player> <max-player>"
+  UsageMessageArenaMinPlayers: "%prefix% &a/event create <arena> &c<min-player> <max-player>"
+  UsageMessageArenaMaxPlayers: "%prefix% &a/event create <arena> <min-player> &c<max-player>"
+  UsageMessageArenaRemove: "%prefix% &c/event remove <arena>"
+  UsageMessageSetSpawn: "%prefix% &c/event setspawn <arena>"
+  UsageMessageSetLobby: "%prefix% &c/event setlobby <arena>"
+  UsageMessageArenaInfo: "%prefix% &c/event info <arena>"
+  UsageMessageJoinArena: "%prefix% &c/event join <arena>"
+  UsageMessageLeaveArena: "%prefix% &c/event leave <arena>"
+  UsageMessageChestmode: "%prefix% &c/event chestmode <arena>"
+  AtLeastTwoMinPlayer: "%prefix% &cAtleast &72 &cplayer in an arena!"
+  MaximumPlayersInAnArena: "%prefix% &cMax &764 &cplayer in an arena!"
+  ArenaCreate: "%prefix% &aSuccessfully created &e%arena% &aarena!"
+  ArenaRemove: "%prefix% &aSuccessfully remove &e%arena% &aarena!"
+  ArenaNotFound: "%prefix% &cArena &7%arena% &cnot found!"
+  ArenaAlreadyExists: "%prefix% &cArena &e%arena% &calready exists!"
+  LobbyLocationSet: "%prefix% Arena &6%arena% &alobby location placed!"
+  SpawnLocationSet: "%prefix% Arena &6%arena% &aspawn location set&f(&a%spawncount%&6/&a%max-player%&f)&7!"
+  NotInArena: "%prefix% &cYou are not in this arena!"
+  EnterChestmode: "%prefix% You have entered chestmode"
+  ExitChestmode: "%prefix% You have left chestmode"
+  GiveSelectorAxe: "%prefix% &cYou got a SelectorAxe for select an arena radius"
+
+
+
+
+

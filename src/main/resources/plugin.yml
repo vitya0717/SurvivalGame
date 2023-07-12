@@ -1,0 +1,11 @@
+name: MiniGame
+version: '${project.version}'
+main: com.vitya017.minigame.Main
+api-version: 1.19
+authors: [ vitya0717 ]
+description: Minigame plugin
+softdepend:
+  - 'Multiverse-Core'
+
+commands:
+  event:

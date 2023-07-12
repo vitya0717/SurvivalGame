@@ -1,0 +1,11 @@
+2023.06.07:
+- Elkezdtem dolgozni a lootchest finomításán!
+- blockfacing mentése és betöltése a lootchestbe, hogy ne csak egy irányba nézzen spawnoláskor
+    - lootchest.java, ArenaManager.java kb 320. sor, LootChestListener.java
+2023.06.17:
+- Mükszik a lootchest és már abba az irányba néz kezdéskor ahogy leraktuk, EZ
+- csatlakozási és kilépési hiba is javítva, nemtom eddig hogy nem volt hibás AM
+2023.06.18
+- Elbasztam(amúgy nem) a timereket mert csak egy globális objektumot hoztam létre.
+Mind a három félének, persze akkor veszem észre mikor már kész és egynél tökéletesen működik, de többnél egyszerre nem működne geeee...
+és most külön-külön kell szerveznem az összeset :) Jó átlátni
